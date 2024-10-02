@@ -28,8 +28,7 @@
 
 **RaspberryPi server**
 
-![rasp](https://github.com/user-attachments/assets/e2d6507a-0fe6-4184-87ee-d4d8a8ac912b)
-
+![123](https://github.com/user-attachments/assets/a7633236-66e3-41d1-b92a-f993b8941c3e)
 
 RaspberryPi connect
 
