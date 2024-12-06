@@ -20,16 +20,15 @@
 
 ## 구현
 **RaspberryPi server**
-
-라파사진
+- 접속한 클라이언트 소켓 확인
+![ress](https://github.com/user-attachments/assets/9b7869f1-c62b-4a25-ad23-9648d28ae08b)
 
 
 **실시간 채팅 기능**
 
 - client가 메시지 입력시 server로 전송 -> server에서 cli_socks[]배열에 있는 client들에게 broadcast
 
-클라이언트 채팅 기능 사진
-
+![스크린샷 2024-12-06 200034](https://github.com/user-attachments/assets/561ec8c8-96fa-4fa9-bc07-07dbc896a96a)
 
 **Thread 기반 클라이언트 처리 & Mutex 기반 동기화**
 
