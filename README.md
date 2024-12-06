@@ -44,7 +44,9 @@ RaspberryPi server
 - 또한 Mutex를 사용하여 한번에 하나의 Thread만 공유 자원에 접근할 수 있도록 설계하여 동기화를 보장하였습니다.
 
 
-Server 코드 일부
+- Server 코드 일부
+
+
 ![image](https://github.com/user-attachments/assets/f563a17a-a843-463a-a1b2-bb67fbe4bf6d)
 
 ![image](https://github.com/user-attachments/assets/962f9b2a-ea36-45bc-a0ed-fa339ca9cf16)
