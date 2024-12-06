@@ -42,6 +42,8 @@ RaspberryPi server
 
 - 서버는 Thread를 사용하여 다수의 클라이언트를 병렬로 처리하도록 구현했습니다. 각 클라이언트 연결이 독립적인 스레드에서 처리되므로 비동기적인 클라이언트 관리가 가능하며 높은 동시성 처리가 요구되는 네트워크 환경에서 성능을 높였습니다.
 - 또한 Mutex를 사용하여 한번에 하나의 Thread만 공유 자원에 접근할 수 있도록 설계하여 동기화를 보장하였습니다.
+
+
 Server 코드 일부
 ![image](https://github.com/user-attachments/assets/f563a17a-a843-463a-a1b2-bb67fbe4bf6d)
 
@@ -52,6 +54,3 @@ Server 코드 일부
 클라이언트가 접속할 때마다 새로운 스레드 생성 -> 연결시 handle_clnt 함수로 넘겨줌.
 
 공유 자원을 사용하는 구간에 pthread_mutex_lock()과 pthread_mutex_unlock()을 통해 경쟁 상태 방지.
-
-
-클라이언트를 독립적으로 관리하고 각 클라이언트는 자신의 스레드를 통해 메세지를 수신
