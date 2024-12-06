@@ -7,9 +7,9 @@
 ## 기술 스택
 
 - 주요 언어 : C
-- 환경 : Linux
-- 개발도구 : RaspberryPi 4
-- 네트워크 통신 : TCP Socket
+- 운영 환경 : 서버 - RaspberryPi, 클라이언트 - Ubuntu
+- 네트워킹 : TCP/IP Socket
+- 병렬 처리 : POSIX 스레드 - pthread
 
 ## 핵심 기능
 
