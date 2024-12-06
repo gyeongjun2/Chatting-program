@@ -2,22 +2,23 @@
 
 ## 프로젝트 주제
 
-- 소켓 프로그래밍과 멀티스레드를 사용하여 구현한 다중 클라이언트 채팅 프로그램입니다. 이 프로젝트는 라즈베리파이에서 서버를 실행하고 클라이언트는 우분투 환경에서 연결하여 실시간 통신을 진행하였습니다.
+- Socket과 Thread를 사용하여 구현한 다중 클라이언트 채팅 프로그램입니다. 이 프로젝트는 라즈베리파이에서 서버를 실행하고 우분투 환경에서 클라이언트를 연결하여 실시간 통신을 진행하였습니다.
 
 ## 기술 스택
 
 - 주요 언어 : C
 - 운영 환경 : 서버 - RaspberryPi, 클라이언트 - Ubuntu
 - 네트워킹 : TCP/IP Socket
-- 병렬 처리 : POSIX 스레드 - pthread
+- 병렬 처리 : POSIX Thread - pthread
 
-## 핵심 기능
+## 주요 기능
+
+1. 실시간 메시지 broadcast 전송
+2. Thread를 통한 다중 클라이언트 지원
+3. Mutex를 사용하여 임계영역 동기화
 
 **RaspberryPi server**
 
-![123](https://github.com/user-attachments/assets/a7633236-66e3-41d1-b92a-f993b8941c3e)
-
-RaspberryPi connect
 
 ![pic2](https://github.com/user-attachments/assets/470781be-8326-4ecc-bb97-9f27fab9d327)
 
